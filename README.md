@@ -1,9 +1,14 @@
-<img width="1512" alt="bamboo" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/19849b67-0f5c-4c96-852b-0c7e6899e974">
-# Best Lineup for the White Sox Baseball Team
-The book and movie “Moneyball” tells the story of Billy Beane, the Oakland Athletics general manager who put together a competitive baseball team despite having a restricted budget. His “secret” was the strategic use of data-driven methodology. I was inspired by this movie, so I used it to propose a data analysis project for a “Business Modeling and Simulation” course.
+<img width="1501" alt="Screen Shot 2024-04-02 at 3 22 32 PM" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/108fb197-e8eb-4339-b2c8-3d841ba0f807">
+
+# Website User Behavior Analysis
+Taiwan ICDF Bamboo Industrialization Project in Guatemala is dedicated to fostering sustainable bamboo industries throughout Guatemala. Our mission involves offering comprehensive technical assistance to industry participants, empowering them with the knowledge and skills needed to thrive in this sector.
+
+To achieve our goals, we use the Bamboo Industrialization Project website as a platform for introducing and promoting our projects. Through this online platform, we aim to raise awareness about the project, its objectives, and the opportunities it presents for individuals and communities. Moreover, we seek to encourage greater participation in the bamboo industry by extending invitations to interested stakeholders to join our cause and contribute to its success.
 
 ## Problem Description
-In the 2022 regular season, the Chicago White Sox team lost half of their series (win rate of 0.5) and failed to advance to the playoffs. Therefore, our project aims to improve its performance and provide the best lineup. By examining different lineup possibilities and using statistical analyses, we hope to identify the most effective combination of players for each position.
+We are facing many challenges in terms of brand awareness and increasing the number of participants from the existing bamboo industry. Our main goal is to spread the word about the economic potential and environmental benefits of bamboo, the technical support we can offer, and encourage more individuals to be part of the growing bamboo economy in Guatemala. 
+
+By analyzing website user behavior, we aim to gain insights into our website visitors and their interactions with our platform. With this understanding, we can offer tailored suggestions to enhance our website content and improve user experience.
 
 ## Input Data Analyses & Modeling
 Baseball teams and fans love statistics, so we had a large body of data to work with. Batter data was retrieved from https://www.mlb.com/whitesox/stats/. In the data set, the performance of the White Sox team batters was carried out by compiling their individual batting statistics from 2022 data, with each row of an individual batting probability sum equal to 1. 
