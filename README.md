@@ -1,5 +1,4 @@
-![baseball picture](https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/af6e4f9b-58ac-4859-9406-7a76a56f1866)
-<sup>Photo by Pixabay: https://www.pexels.com/photo/baseball-player-on-field-photo-163516/
+<img width="1512" alt="bamboo" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/19849b67-0f5c-4c96-852b-0c7e6899e974">
 # Best Lineup for the White Sox Baseball Team
 The book and movie “Moneyball” tells the story of Billy Beane, the Oakland Athletics general manager who put together a competitive baseball team despite having a restricted budget. His “secret” was the strategic use of data-driven methodology. I was inspired by this movie, so I used it to propose a data analysis project for a “Business Modeling and Simulation” course.
 
