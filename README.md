@@ -69,103 +69,48 @@ The dataset covers the period from January 15th, 2024 to March 15th, 2024, total
 ![7 11 42 59 AM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/a981793c-8af0-401a-bcaa-23b2ffaa51e7)
 ![8](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/389ccfc5-19a6-4370-b360-20fc5d6cfa1f)
 
-## Findings
+## Exploration of clusters
 #### Cluster summary
 ![cluster summary](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d19595d9-ba23-4fda-b6e8-9bb9e8ddb227)
 
-####
+#### Figure ..: data per cluster
+![1](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/78fa7ca9-ff6f-4727-8ebb-198752c629d0)
+![2 12 30 00 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/de2291bc-89ee-4151-998b-5565b29c140e)
+![3 12 30 00 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/b25639bb-cc2b-4141-8495-9f78e67a99dd)
+![4 12 30 00 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/3785a0aa-404b-4a02-bb63-64087e38ee0a)
+![5 12 30 00 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/22f1503d-f737-41dc-b301-7c7ec61432a9)
+![6 12 30 00 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/61d96586-de75-404a-83b5-723847518355)
+![7 12 29 56 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/cbba6ca5-afa2-41b4-9620-180312749934)
+![8 12 30 02 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/4cf2f9ea-2928-4d1a-bc5b-549902875ed5)
+![9 12 30 02 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/a6adbc47-29eb-4385-9622-145be591c04f)
+![10](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/2eabe8e2-04da-40d2-9774-3d2c5cb2893d)
+![11](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/adce5e5c-2906-4545-be31-dfcb08f6cd55)
+![12](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/e7e4d4ae-25f1-4729-b04b-07301c0976da)
+![13](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8e679968-3290-483f-9c02-40d60141dbc6)
+![14](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/0d50d8c7-906e-4077-bfdc-b8a65f12229b)
+![15](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/f0f4743b-dcdb-4c7a-bff4-4d666460b84b)
+![16](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/3700557d-12c5-4194-9180-604453871124)
+![17](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/c4cb83ba-d5ea-4fba-be2b-451679322283)
+![18](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/7a6edbbe-e950-42ec-8835-6bf8b961ddf5)
+![19](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/293c7c5e-e765-4a38-b679-035672f8d97e)
+![20](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/cc333d1f-7050-42b3-acd0-74f66888e26f)
+![21](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/5c235e78-04f5-45ea-bbb6-ac4d43f1d3d5)
+![22](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8db74fe6-41f4-46c1-87dc-c35091421ab3)
+![23](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/e5d31e71-d384-43d2-9917-cfabe07d14b3)
+![24](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d6bae0c3-a256-498b-9be8-e0f3824e1fbc)
+![25](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/6e71a37c-144f-4c6f-9d3e-9ffbf7f6c859)
+![26](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/922b9950-d116-44e9-8778-9d75515bcadb)
+![27](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/276f9686-6dbc-4fa9-91f0-b2743abec8c3)
+![28](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/7056f671-11c5-4be4-98a0-b2db5bdb3748)
+![29](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/03109fdd-d147-4a96-a3d4-b3d2fab278bb)
+![30](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/51eda2a1-0d48-4a53-bca3-70da913e4fbf)
+![31](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/000508ed-6ebb-4b2d-9d04-d73df0563163)
+![32](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/bb145d02-eef2-4c0e-8009-9210dce216d6)
+![33](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/7c24c183-8d34-4669-9921-005869b92a92)
+![34](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8ebdf2ac-18c0-4eaa-8d78-64d6db4b8848)
 
-### Batting outcome with respect of different base situations
-We assume the following rule:
-1. Any type of hit (1B hit, 2B hit, 3B hit, HR) can occur in any base situation.
-2.	A groundout (1 out), an air out (AO), and a strikeout (SO) can occur in any base situation.
-3.	A Ground into double play (GIDP) can only occur when a runner is on first base.
-4.	A sacrifice fly (SF) can only occur when a runner is on third base.
 
-### Runner advancing rule
-We assume the following base advancing rule:
-1.	A single hit (1B hit) advances all runners one base and the batter to first base.
-2.	A double hit (2B hit) advances all runners two bases and the batter to second base.
-3.	A triple hit (3B hit) advances all runners three bases and the batter to third base.
-4.	A homerun (HR) advances all runners and the batter to home base.
-5.	A groundout (1 out) counts the batter as one out and advances runners if it is a force play (A force play happens when a baserunner must try to reach the next base because a runner behind him is approaching his current base).
-6.	A ground into double play (GIDP) counts 2 outs for the batter and the runner on first base. The runners are advanced if it is a force play.
-7.	Both an air out (AO) and a strikeout (SO) count the batter as one out, and all runners remain unchanged.
-8.	Both a walk (BB) and a hit-by-pitch (HBP) advance the batter to first base, and advance other runners if it is a force play.
-9.	Sacrifice bunts (SAC) are not counted at all.
-10.	A sacrifice fly (SF) advances a runner on third base to home base, while the other runner remains unchanged.
-
-### Algorithms of program 
-#### Figure 4: Overview of the program 
-<img width="500" alt="20" src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/7360307c-080d-4015-aa12-62ee66b027ed">
-
-#### Algorithm 1: List out all the lineup combinations and their batting order.
-#### Figure 5: Algorithm 1
-<img width="200" alt="8" src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/c19ecd26-3b5d-4612-b60a-44c60976b7ac">
-
-There are 13 players in the white sox team in 2023, including 2 catchers, 7 infielders, 4 outfielders. Players in the batting lineup and fielding positions should be consistent, which means that each batting combination would consist of 1 catcher, 4 infielders, 3 outfielders, and 1 designated hitter. Thus, the amount of batting combinations is <img width="230" alt="15" src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/6a4f1183-cdd1-431a-85a3-c373170fc59b">
-
-Trying all the possible batting orders is computationally time-consuming. To address this issue, the project adopted an adjusted version of the traditional batting order proposed by Ursin (2014) to reduce computation time (see Figure 6 for modified batting order strategy).
-
-#### Figure 6: Modified batting order strategy
-<img width="700" alt="13" src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/67835543-312a-4c2b-860f-9b4fa60bc0c3">
-
-#### Algorithm 2.1: Simulate run for n innings
-#### Figure 7: Algorithm 2.1
-<img width="580" alt="20" src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/e16f86e9-6ccb-497a-b05b-2dcdc2550d22">
-
-In algorithm 2, we have to first simulate a run for the first 9 innings (executes the algorithm 2.1 for 9 times). The program generates the batting outcome according to the probabilities, changes the base situation correspondingly, and records the outs if applicable. The run will only be recorded if the inning does not end (3 outs). Same process is applied to extra innings except the simulation only runs for 1 time this time. To ensure accuracy, we simulate 10,000 games for each batting order combination (lineup) in this project.
-
-<sup>(The possible batting outcomes of a player depend on the base situation. For example, If there is no runner on third base, there is no chance for batter to hit a sacrifice fly.)
-
-## Output Analyses
-### Best lineup
-After simulation, the best lineup for the Chicago White Sox team is identified. See Table 2 for the list of the best lineup. See Table 3 for a comparison between the optimal lineup and the 2022 season lineup.
-
-#### Table 2: Batters in the best lineup
-|Batting Order | Batters          | Position    |
-| :---         | :---             | :---        |
-| 1            | Andrew Benintendi| Outfielders |
-| 2            | Tim Anderson     | Infielders  |
-| 3            | Oscar Colás      | Outfielders |
-| 4            | Eloy Jiménez     | Outfielders |
-| 5            | Luis Robert Jr   | Outfielders |
-| 6            | Andrew Vaughn    | Infielders  |
-| 7            | Seby Zavala      | Catchers    |
-| 8            | Elvis Andrus     | Infielders  |
-| 9            | Gavin Sheets     | Infielders  |
-
-#### Table 3: Comparison between optimal lineup and 2022 season lineup
-|                  | 9 inning score   | Win rate  | Game Win|
-| :---             | :---             | :---      |:---     |
-|Best lineup       | 4.1849           |0.5132     |81       |
-|2022 season lineup| 4.1111           |0.5        |83       |
-|Improvement       | 0.07             |0.0132     |2        |
-
-### Further Analyses
-#### Standard Ddviation analyses
-* Higher expected runs scored are generally associated with higher standard deviation.
-#### Figure 7: Relationship between Expected Runs Scored and Standard Deviation for Chicago White Sox Lineups
-<img width="306" alt="7" src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/87f64be1-4706-4c7f-a511-ab3308a8994d">
-
-* As expected runs scored increases, the win rate tends to increase.
-#### Figure 8: Relationship between Expected Runs Scored and Standard Deviation for Chicago White Sox Lineups
-<img width="306" alt="7" src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/78bc7807-9189-40c1-b406-e6599fce6bae">
-
-#### Cost Analyses of Each Lineup
-* Higher lineup payrolls are generally associated with lower expected runs.
-#### Figure 9: Relationship between Expected Runs Scored and Payroll of Each Lineup
-<img width="306" alt="7" src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/d9be6d1f-98cf-4b37-b6dc-ba94edf67b9e">
-
-* As linup payroll increases, the win rate tends to decrease.
-#### Figure 10: Relationship between Win Rate and Payroll of Each Lineup
-<img width="306" alt="7" src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/0621b736-9776-4518-ab40-147ab7c23edd">
-
-#### Individual Player’s Performance Analysis
-Figure shows that Hanser Alberto has the highest frequency proportion of 61.25% among all the players. This suggests that he is underperforming. Therefore, providing extra training to Hanser may be beneficial to improve his performance and better fit in the team.
-
-#### Figure 11: Proportion of player in Second Half of Lineup (total presence in second half/ total presence in all lineups)
-<img width="550" alt="Picture1" src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/b5b2b683-4ada-4f37-8e6b-de7a979f5114">
+## Findings 
 
 ## Conclusion
 In a nutshell, the Chicago White Sox team is recommended to use the best lineup in the coming season in 2023. Based on the findings of our analysis, using the best lineup can lead to a higher average run scored compared to the actual 2022 season. 
