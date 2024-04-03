@@ -10,32 +10,46 @@ We are facing many challenges in terms of brand awareness and increasing the num
 
 By analyzing website user behavior, we aim to gain insights into our website visitors and their interactions with our platform. With this understanding, we can offer tailored suggestions to enhance our website content and improve user experience.
 
-## Input Data Analyses & Modeling
-Baseball teams and fans love statistics, so we had a large body of data to work with. Batter data was retrieved from https://www.mlb.com/whitesox/stats/. In the data set, the performance of the White Sox team batters was carried out by compiling their individual batting statistics from 2022 data, with each row of an individual batting probability sum equal to 1. 
+## Exploratory Data Analysis
+The dataset covers the period from January 15th, 2024 to March 15th, 2024, totaling 8743 activity records. After thorough organization and sorting, we've condensed this information into 804 user data.
 
-The dataset for the individual batting statistics of batters comprises several variables, plate appearances (PA) include at bat (AB), walk (BB), hit by a pitch (HBP), sacrifice fly (SF), and sacrifice bunt (SAC). However, the act of executing sacrifice bunt (SAC) is considered a strategic decision and not a reflection of the batter's ability, it has been excluded from our batting individual batting ability.
+#### Table 1: User data
+![user data dataframe](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/2f27c56d-0a97-4d83-bad4-812e3b7a56e0)
 
-#### Figure 1: Classification of all batting outcomes
-![3](https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/7a42747e-cdd0-4712-962b-af1c1e47acf3)
+#### Table 2: User data summary
+![user data summary](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/55a4854b-81fc-44b4-a193-f5c7f8a8fd89)
 
-#### Table 1: Batters data <sup> 
-<img width="905" alt="Screen Shot 2024-01-02 at 6 37 26 PM" src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/b56088db-d73b-4809-b4c1-579da3624fe1">
+#### Figure 1: Event count distribution
+<img width="800" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/60bfd2fb-2058-497f-9629-1327346ea23c">
 
-<sup>The numbers are rounded
+#### Figure 2: User engagement distribution
+<img width="800" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d6886ab0-8d3e-4083-a091-f385a3f2d94c">
 
-### Run Allowed Analyses
-In 2022, the White Sox team played 162 games in the AL Central. Runs allowed (RA) data was retrieved from https://www.baseball-reference.com/teams/CHW/2022-schedule-scores.shtml. RA indicates the amount of runs that score against a team. RA performance reflects the team's effort, making it challenging to attribute to a specific individual. Additionally, the composition of pitchers in 2022 and 2023 has stayed relatively constant. Thus, we assume there are no significant changes in fielding performance this year.
+#### Figure 3: Geographical information pie chart
+<img width="500" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/33913a9b-e4df-4cbe-bef8-f2c4678c7470">
+<img width="230" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8aee6717-0a5e-416f-a1bd-b438cbb165e9">
 
-The distribution of 9 innings RA in 2022 is approximately exponential (see Figure 2). To generate random numbers that conform to the exponential distribution, we used the previous year's data to set the lambda. Moreover, the distribution of RA in extra innings also demonstrated an exponential distribution (see Figure 3). The simulation of extra innings was performed in the same way as RA for 9 innings.
+#### Figure 3: Correlation Matrix
+<img width="800" alt="50" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/71435e82-ee69-4962-a084-3e6824d0b130">
 
-#### Figure 2: Histogram and density function of runs allowed of 9 innings in 2022 with random numbers
-<img src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/df80e8e4-5f16-4d9a-a118-5f7c9d858401.type" width="471" height="354">
+## Feature Engineering
 
-#### Figure 3: Histogram and density function of runs allowed of extra inning in 2022 with random numbers
-<img src="https://github.com/lin-jhe-yu/lin-jhe-yu-Best-Lineup-for-the-White-Sox-Baseball-Team/assets/121969452/1add8eb0-76b1-452a-a2b8-276caefd4ca0.type" width="471" height="354">
+#### Standardizing data
+![standardized user data](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/26ff864f-2d60-4622-b874-a7b4f3477905)
 
+#### Selecting the Number of Principal Components
+<img width="500" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/45ce3a76-f69e-4ede-b7d4-c80ca0641e5a">
+<img width="350" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/378b1a56-da9c-4d9b-8e9f-73ecd02e3a94">
 
-## Simulation and Programming
+#### Creating Principal Components
+<img width="900" alt="pca" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/15f07d40-a405-4351-802f-f97f9e852c95">
+
+## Model Building and Evaluation
+
+## Results
+
+## Findings
+
 ### Batting outcome with respect of different base situations
 We assume the following rule:
 1. Any type of hit (1B hit, 2B hit, 3B hit, HR) can occur in any base situation.
