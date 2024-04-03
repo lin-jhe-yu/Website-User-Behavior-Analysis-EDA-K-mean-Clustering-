@@ -29,26 +29,51 @@ The dataset covers the period from January 15th, 2024 to March 15th, 2024, total
 <img width="500" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/33913a9b-e4df-4cbe-bef8-f2c4678c7470">
 <img width="230" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8aee6717-0a5e-416f-a1bd-b438cbb165e9">
 
-#### Figure 3: Correlation Matrix
+#### Figure 4: Correlation Matrix
 <img width="800" alt="50" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/71435e82-ee69-4962-a084-3e6824d0b130">
 
 ## Feature Engineering
 
-#### Standardizing data
+#### Table 3: Standardizing data
 ![standardized user data](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/26ff864f-2d60-4622-b874-a7b4f3477905)
 
-#### Selecting the Number of Principal Components
+#### Figure 5: Principal components composition
+<img width="500" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/f2d1ce05-3667-4e2e-b5a1-297e3200ddbb">
+
+#### Figure 6: Selecting the number of principal components
 <img width="500" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/45ce3a76-f69e-4ede-b7d4-c80ca0641e5a">
 <img width="350" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/378b1a56-da9c-4d9b-8e9f-73ecd02e3a94">
 
-#### Creating Principal Components
+#### Table 4: Transforming data
 <img width="900" alt="pca" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/15f07d40-a405-4351-802f-f97f9e852c95">
 
 ## Model Building and Evaluation
 
+#### The elbow method
+![elbow method](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/cee0f6f1-300a-4370-bea5-02e751ade0f2)
+
+#### The silhouette method
+![silhouette method](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/b77695f7-c497-42df-a464-0445bb1f2cae)
+
 ## Results
+#### User cluster pie chart
+<img width="413" alt="Screen Shot 2024-04-03 at 11 14 09 AM" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d8108b8f-eab3-46cf-baf3-77dc122190ac">
+
+#### Cluster scatter plot
+![cluster scatter plot](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/873aa75a-023b-4a65-9c90-e9ed2d7def86)
+![2](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/f79771f1-6d3c-4d6b-85cb-744d04a9a8a0)
+![3](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8fa51316-ad54-41ef-a800-0d7261fb61b9)
+![4 11 42 59 AM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/0935f478-7555-46f8-95f1-4aa0c8ff2c86)
+![5](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/eca21c41-c959-424b-9e31-4c6d4c37e806)
+![6 11 42 59 AM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/3672127f-4b2c-40de-9521-31acf19a9976)
+![7 11 42 59 AM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/a981793c-8af0-401a-bcaa-23b2ffaa51e7)
+![8](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/389ccfc5-19a6-4370-b360-20fc5d6cfa1f)
 
 ## Findings
+#### Cluster summary
+![cluster summary](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d19595d9-ba23-4fda-b6e8-9bb9e8ddb227)
+
+####
 
 ### Batting outcome with respect of different base situations
 We assume the following rule:
