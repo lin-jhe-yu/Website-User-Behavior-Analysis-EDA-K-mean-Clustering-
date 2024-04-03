@@ -45,10 +45,9 @@ The dataset covers the period from January 15th, 2024 to March 15th, 2024, total
 <img width="350" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/378b1a56-da9c-4d9b-8e9f-73ecd02e3a94">
 
 #### Table 4: Transforming data
-<img width="900" alt="pca" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/15f07d40-a405-4351-802f-f97f9e852c95">
+<img width="900" alt="pca" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8029e0a5-08c4-48a3-9e91-42d566c46981">
 
 ## Model Building and Evaluation
-
 #### The elbow method
 ![elbow method](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/cee0f6f1-300a-4370-bea5-02e751ade0f2)
 
@@ -60,55 +59,54 @@ The dataset covers the period from January 15th, 2024 to March 15th, 2024, total
 <img width="413" alt="Screen Shot 2024-04-03 at 11 14 09 AM" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d8108b8f-eab3-46cf-baf3-77dc122190ac">
 
 #### Cluster scatter plot
-![cluster scatter plot](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/873aa75a-023b-4a65-9c90-e9ed2d7def86)
-![2](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/f79771f1-6d3c-4d6b-85cb-744d04a9a8a0)
-![3](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8fa51316-ad54-41ef-a800-0d7261fb61b9)
-![4 11 42 59 AM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/0935f478-7555-46f8-95f1-4aa0c8ff2c86)
-![5](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/eca21c41-c959-424b-9e31-4c6d4c37e806)
-![6 11 42 59 AM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/3672127f-4b2c-40de-9521-31acf19a9976)
-![7 11 42 59 AM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/a981793c-8af0-401a-bcaa-23b2ffaa51e7)
-![8](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/389ccfc5-19a6-4370-b360-20fc5d6cfa1f)
+<img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/873aa75a-023b-4a65-9c90-e9ed2d7def86">
+<img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/f79771f1-6d3c-4d6b-85cb-744d04a9a8a0">
+<img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8fa51316-ad54-41ef-a800-0d7261fb61b9">
+<img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/0935f478-7555-46f8-95f1-4aa0c8ff2c86">
+<img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/eca21c41-c959-424b-9e31-4c6d4c37e806">
+<img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/3672127f-4b2c-40de-9521-31acf19a9976">
+<img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/a981793c-8af0-401a-bcaa-23b2ffaa51e7">
+<img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/389ccfc5-19a6-4370-b360-20fc5d6cfa1f">
 
 ## Exploration of clusters
 #### Cluster summary
-![cluster summary](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d19595d9-ba23-4fda-b6e8-9bb9e8ddb227)
+<img width="600" alt="pca" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d19595d9-ba23-4fda-b6e8-9bb9e8ddb227">
 
 #### Figure ..: data per cluster
-![1](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/78fa7ca9-ff6f-4727-8ebb-198752c629d0)
-![2 12 30 00 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/de2291bc-89ee-4151-998b-5565b29c140e)
-![3 12 30 00 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/b25639bb-cc2b-4141-8495-9f78e67a99dd)
-![4 12 30 00 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/3785a0aa-404b-4a02-bb63-64087e38ee0a)
-![5 12 30 00 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/22f1503d-f737-41dc-b301-7c7ec61432a9)
-![6 12 30 00 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/61d96586-de75-404a-83b5-723847518355)
-![7 12 29 56 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/cbba6ca5-afa2-41b4-9620-180312749934)
-![8 12 30 02 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/4cf2f9ea-2928-4d1a-bc5b-549902875ed5)
-![9 12 30 02 PM](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/a6adbc47-29eb-4385-9622-145be591c04f)
-![10](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/2eabe8e2-04da-40d2-9774-3d2c5cb2893d)
-![11](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/adce5e5c-2906-4545-be31-dfcb08f6cd55)
-![12](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/e7e4d4ae-25f1-4729-b04b-07301c0976da)
-![13](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8e679968-3290-483f-9c02-40d60141dbc6)
-![14](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/0d50d8c7-906e-4077-bfdc-b8a65f12229b)
-![15](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/f0f4743b-dcdb-4c7a-bff4-4d666460b84b)
-![16](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/3700557d-12c5-4194-9180-604453871124)
-![17](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/c4cb83ba-d5ea-4fba-be2b-451679322283)
-![18](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/7a6edbbe-e950-42ec-8835-6bf8b961ddf5)
-![19](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/293c7c5e-e765-4a38-b679-035672f8d97e)
-![20](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/cc333d1f-7050-42b3-acd0-74f66888e26f)
-![21](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/5c235e78-04f5-45ea-bbb6-ac4d43f1d3d5)
-![22](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8db74fe6-41f4-46c1-87dc-c35091421ab3)
-![23](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/e5d31e71-d384-43d2-9917-cfabe07d14b3)
-![24](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d6bae0c3-a256-498b-9be8-e0f3824e1fbc)
-![25](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/6e71a37c-144f-4c6f-9d3e-9ffbf7f6c859)
-![26](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/922b9950-d116-44e9-8778-9d75515bcadb)
-![27](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/276f9686-6dbc-4fa9-91f0-b2743abec8c3)
-![28](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/7056f671-11c5-4be4-98a0-b2db5bdb3748)
-![29](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/03109fdd-d147-4a96-a3d4-b3d2fab278bb)
-![30](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/51eda2a1-0d48-4a53-bca3-70da913e4fbf)
-![31](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/000508ed-6ebb-4b2d-9d04-d73df0563163)
-![32](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/bb145d02-eef2-4c0e-8009-9210dce216d6)
-![33](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/7c24c183-8d34-4669-9921-005869b92a92)
-![34](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8ebdf2ac-18c0-4eaa-8d78-64d6db4b8848)
-
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/78fa7ca9-ff6f-4727-8ebb-198752c629d0">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/de2291bc-89ee-4151-998b-5565b29c140e">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/b25639bb-cc2b-4141-8495-9f78e67a99dd">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/3785a0aa-404b-4a02-bb63-64087e38ee0a">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/22f1503d-f737-41dc-b301-7c7ec61432a9">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/61d96586-de75-404a-83b5-723847518355">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/cbba6ca5-afa2-41b4-9620-180312749934">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/4cf2f9ea-2928-4d1a-bc5b-549902875ed5">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/a6adbc47-29eb-4385-9622-145be591c04f">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/2eabe8e2-04da-40d2-9774-3d2c5cb2893d">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/adce5e5c-2906-4545-be31-dfcb08f6cd55">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/e7e4d4ae-25f1-4729-b04b-07301c0976da">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8e679968-3290-483f-9c02-40d60141dbc6">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/0d50d8c7-906e-4077-bfdc-b8a65f12229b">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/f0f4743b-dcdb-4c7a-bff4-4d666460b84b">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/3700557d-12c5-4194-9180-604453871124">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/c4cb83ba-d5ea-4fba-be2b-451679322283">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/7a6edbbe-e950-42ec-8835-6bf8b961ddf5">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/293c7c5e-e765-4a38-b679-035672f8d97e">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/cc333d1f-7050-42b3-acd0-74f66888e26f">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/5c235e78-04f5-45ea-bbb6-ac4d43f1d3d5">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8db74fe6-41f4-46c1-87dc-c35091421ab3">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/e5d31e71-d384-43d2-9917-cfabe07d14b3">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d6bae0c3-a256-498b-9be8-e0f3824e1fbc">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/6e71a37c-144f-4c6f-9d3e-9ffbf7f6c859">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/922b9950-d116-44e9-8778-9d75515bcadb">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/276f9686-6dbc-4fa9-91f0-b2743abec8c3">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/7056f671-11c5-4be4-98a0-b2db5bdb3748">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/03109fdd-d147-4a96-a3d4-b3d2fab278bb">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/51eda2a1-0d48-4a53-bca3-70da913e4fbf">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/000508ed-6ebb-4b2d-9d04-d73df0563163">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/bb145d02-eef2-4c0e-8009-9210dce216d6">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/7c24c183-8d34-4669-9921-005869b92a92">
+<img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8ebdf2ac-18c0-4eaa-8d78-64d6db4b8848">
 
 ## Findings 
 
