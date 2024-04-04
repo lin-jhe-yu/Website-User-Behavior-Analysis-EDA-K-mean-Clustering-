@@ -6,12 +6,14 @@ Taiwan ICDF Bamboo Industrialization Project in Guatemala is dedicated to foster
 To achieve our goals, we use the Bamboo Industrialization Project website as a platform for introducing and promoting our projects. Through this online platform, we aim to raise awareness about the project, its objectives, and the opportunities it presents for individuals and communities. Moreover, we seek to encourage greater participation in the bamboo industry by extending invitations to interested stakeholders to join our cause and contribute to its success.
 
 ## Problem Description
-We are facing many challenges in terms of brand awareness and increasing the number of participants from the existing bamboo industry. Our main goal is to spread the word about the economic potential and environmental benefits of bamboo, the technical support we can offer, and encourage more individuals to be part of the growing bamboo economy in Guatemala. 
-
-By analyzing website user behavior, we aim to gain insights into our website visitors and their interactions with our platform. With this understanding, we can offer tailored suggestions to enhance our website content and improve user experience.
+We are facing many challenges in terms of brand awareness and increasing the number of participants from the existing bamboo industry. By analyzing website user behavior, we aim to gain insights into our website visitors and their interactions with our platform. With this understanding, we can offer tailored suggestions to enhance our website content and improve user experience.
 
 ## Exploratory Data Analysis
-The dataset covers the period from January 15th, 2024 to March 15th, 2024, totaling 8743 activity records. After thorough organization and sorting, we've condensed this information into 804 user data (see Table 1).  
+The dataset covers January 15th, 2024 to March 15th, 2024, totaling 8743 activity records. After thorough organization and sorting, we've condensed this information into 804 user data (see Table 1). 
+
+On average, people spend about 76 seconds engaging with content, with the midpoint at around 29 seconds. When it comes to website interactions, website users typically perform around 11 actions (including page loads, link clicks, etc), and the median is closer to 7 (see Table 2). There are quite a few users who show significantly higher engagement levels (time and events) compared to the average (see Figures 1 and 2).
+
+Approximately 68 percent of users are from Guatemala, with the USA following behind at 14 percent (see Figure 3). Visitors with longer user engagement tend to have more events and engage more on page {Construcción con Bambú} and page {Proyecto de Industrialización del Bambú en Guatemala}. In addition, visitors with more event count tend to engage more on page {Introducción al plan de bambú} and {Plan de bambú} (see Figure 4).
 
 #### Table 1: User data
 ![user data dataframe](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/2f27c56d-0a97-4d83-bad4-812e3b7a56e0)
@@ -19,11 +21,11 @@ The dataset covers the period from January 15th, 2024 to March 15th, 2024, total
 #### Table 2: User data summary
 ![user data summary](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/55a4854b-81fc-44b4-a193-f5c7f8a8fd89)
 
-#### Figure 1: Event count distribution
-<img width="800" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/60bfd2fb-2058-497f-9629-1327346ea23c">
-
-#### Figure 2: User engagement distribution
+#### Figure 1: User engagement distribution
 <img width="800" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d6886ab0-8d3e-4083-a091-f385a3f2d94c">
+
+#### Figure 2: Event count distribution
+<img width="800" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/60bfd2fb-2058-497f-9629-1327346ea23c">
 
 #### Figure 3: Geographical information pie chart
 <img width="500" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/33913a9b-e4df-4cbe-bef8-f2c4678c7470">
@@ -33,6 +35,7 @@ The dataset covers the period from January 15th, 2024 to March 15th, 2024, total
 <img width="800" alt="50" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/71435e82-ee69-4962-a084-3e6824d0b130">
 
 ## Feature Engineering
+The data have 34 features, which 
 
 #### Table 3: Standardizing data
 ![standardized user data](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/26ff864f-2d60-4622-b874-a7b4f3477905)
