@@ -35,7 +35,7 @@ Approximately 68 percent of users are from Guatemala, with the USA following beh
 <img width="800" alt="50" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/71435e82-ee69-4962-a084-3e6824d0b130">
 
 ## Feature Engineering
-The data have 34 features, which 
+Principal component analysis (PCA) is a commonly used dimension reduction technique in data engineering. It can save computation time and reduce model complexity and noise. Therefore, we choose to employ PCA on our data. We proceed with the following steps: data standardization (see Table 3), principal component selection (see Figures 5 and 6), and data transformation (see Table 4). After standardizing data, we use 70 percent of variance as a threshold and select 17 principal components.
 
 #### Table 3: Standardizing data
 ![standardized user data](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/26ff864f-2d60-4622-b874-a7b4f3477905)
