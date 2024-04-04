@@ -35,7 +35,7 @@ Approximately 68 percent of users are from Guatemala, with the USA following beh
 <img width="800" alt="50" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/71435e82-ee69-4962-a084-3e6824d0b130">
 
 ## Feature Engineering
-Principal component analysis (PCA) is a commonly used dimension reduction technique in data engineering. It can save computation time and reduce model complexity and noise. Therefore, we choose to employ PCA on our data. We proceed with the following steps: data standardization (see Table 3), principal component selection (see Figures 5 and 6), and data transformation (see Table 4). After standardizing data, we use 70 percent of variance as a threshold and select 17 principal components.
+Principal component analysis (PCA) is a commonly used dimension reduction technique in data engineering. It can save computation time and reduce model complexity and noise. Therefore, we chose to employ PCA on our data. We proceeded with the following steps: data standardization (see Table 3), principal component selection (see Figures 5 and 6), and data transformation (see Table 4). After standardizing data, we selected 17 principal components, which explain around 70 percent of the total variance in the original data. Subsequently, data were transformed with principal components.
 
 #### Table 3: Standardizing data
 ![standardized user data](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/26ff864f-2d60-4622-b874-a7b4f3477905)
@@ -51,17 +51,21 @@ Principal component analysis (PCA) is a commonly used dimension reduction techni
 <img width="900" alt="pca" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8029e0a5-08c4-48a3-9e91-42d566c46981">
 
 ## Model Building and Evaluation
-#### The elbow method
+We tried out K-means clustering models with cluster parameters from 1 to 20 and calculated their within-cluster-sum-of-square (WCSS) values. However, there was no clear elbow point.  Therefore, we subsequently employed the silhouette method. The highest silhouette score was achieved with 2 clusters. We then consider tuning the number of clusters to 2 might produce optimal clustering for our analysis. 
+
+#### Figure 7: The elbow method
 ![elbow method](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/cee0f6f1-300a-4370-bea5-02e751ade0f2)
 
-#### The silhouette method
+#### Figure 8: The silhouette method
 ![silhouette method](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/b77695f7-c497-42df-a464-0445bb1f2cae)
 
 ## Results
-#### User cluster pie chart
+After applying K-means clustering with 2 clusters, 764 users were classified as cluster 0 and 40 users as cluster 1. Cluster 0 constitutes for 95% of the user group, while cluster 0 only accounts for nearly 5%. PCA is the most powerful component to distinguish the cluster (see Figure 10).
+
+#### Figure 9: User cluster pie chart
 <img width="413" alt="Screen Shot 2024-04-03 at 11 14 09 AM" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d8108b8f-eab3-46cf-baf3-77dc122190ac">
 
-#### Cluster scatter plot
+#### Figure 10: Cluster scatter plot
 <img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/873aa75a-023b-4a65-9c90-e9ed2d7def86">
 <img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/f79771f1-6d3c-4d6b-85cb-744d04a9a8a0">
 <img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8fa51316-ad54-41ef-a800-0d7261fb61b9">
