@@ -11,7 +11,7 @@ We are facing many challenges in terms of brand awareness and increasing the num
 By analyzing website user behavior, we aim to gain insights into our website visitors and their interactions with our platform. With this understanding, we can offer tailored suggestions to enhance our website content and improve user experience.
 
 ## Exploratory Data Analysis
-The dataset covers the period from January 15th, 2024 to March 15th, 2024, totaling 8743 activity records. After thorough organization and sorting, we've condensed this information into 804 user data.
+The dataset covers the period from January 15th, 2024 to March 15th, 2024, totaling 8743 activity records. After thorough organization and sorting, we've condensed this information into 804 user data (see Table 1).  
 
 #### Table 1: User data
 ![user data dataframe](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/2f27c56d-0a97-4d83-bad4-812e3b7a56e0)
