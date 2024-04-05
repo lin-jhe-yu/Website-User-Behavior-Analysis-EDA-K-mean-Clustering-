@@ -60,7 +60,9 @@ We tried out K-means clustering models with cluster parameters from 1 to 20 and 
 ![silhouette method](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/b77695f7-c497-42df-a464-0445bb1f2cae)
 
 ## Results and cluster exploration
-After applying K-means clustering with 2 clusters, 764 users were classified as cluster 0 and 40 users as cluster 1. Cluster 0 constitutes 95% of the user group, while cluster 0 only accounts for nearly 5%. PCA is the most powerful component to distinguish the cluster (see Figure 10). Users from both cluster 0 and cluster 1 spend more than half of their time on our website browsing the first page, on average. In addition, users from both clusters are interested in the topic in order: construction, 
+After applying K-means clustering with 2 clusters, 764 users were classified as cluster 0 and 40 users as cluster 1. Cluster 0 constitutes 95% of the user group, while cluster 0 only accounts for nearly 5%. PCA is the most powerful component to distinguish the cluster (see Figure 10). Users from both cluster 0 and cluster 1 spend more than half of their time on our website browsing the first page, on average. 
+
+For Cluster 0, the top 5 topics are: [Proyecto de Industrialización del Bambú en Guatemala], [Construcción con Bambú], [Bambú en la Moda], [Invernadero construido a base de bambú industrializado] and [Construcción]. Cluster 1 shares the same top 3 topics, followed by [Guatemala lidera industrialización y aprovechamiento del Bambú en Centro América], [Artesanas y panaderas, mujeres de Chiquimula buscan alternativas económicas].
 
 #### Figure 9: User cluster pie chart
 <img width="413" alt="Screen Shot 2024-04-03 at 11 14 09 AM" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d8108b8f-eab3-46cf-baf3-77dc122190ac">
