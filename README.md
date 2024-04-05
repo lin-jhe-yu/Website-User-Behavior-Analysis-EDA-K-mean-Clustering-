@@ -60,9 +60,9 @@ We tried out K-means clustering models with cluster parameters from 1 to 20 and 
 ![silhouette method](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/b77695f7-c497-42df-a464-0445bb1f2cae)
 
 ## Results and cluster exploration
-After applying K-means clustering with 2 clusters, 764 users were classified as cluster 0 and 40 users as cluster 1. Cluster 0 constitutes 95% of the user group, while cluster 0 only accounts for nearly 5%. PCA is the most powerful component to distinguish the cluster (see Figure 10). Users from both cluster 0 and cluster 1 spend more than half of their time on our website browsing the first page, on average. 
+After applying K-means clustering with 2 clusters, 764 users were classified as cluster 0 and 40 users as cluster 1 (see Figure 9). Cluster 0 constitutes 95% of the user group, while cluster 0 only accounts for nearly 5%. PCA is the most powerful component to distinguish the cluster (see Figure 10). Users from both cluster 0 and cluster 1 spend more than half of their time on our website browsing the first page, on average. 
 
-For Cluster 0, the top 5 topics are: [Proyecto de Industrialización del Bambú en Guatemala], [Construcción con Bambú], [Bambú en la Moda], [Invernadero construido a base de bambú industrializado] and [Construcción]. Cluster 1 shares the same top 3 topics, followed by [Guatemala lidera industrialización y aprovechamiento del Bambú en Centro América], [Artesanas y panaderas, mujeres de Chiquimula buscan alternativas económicas].
+For Cluster 0, the top 5 topics are: [Proyecto de Industrialización del Bambú en Guatemala], [Construcción con Bambú], [Bambú en la Moda], [Invernadero construido a base de bambú industrializado] and [Construcción]. Cluster 1 shares the same top 3 topics, followed by [Guatemala lidera industrialización y aprovechamiento del Bambú en Centro América], [Artesanas y panaderas, mujeres de Chiquimula buscan alternativas económicas] (see Table 5). The users from cluster 1 spend significant longer time on each topic except [Savenhouse built from industrialized bamboo], [Bamboo in Fashion], [Fertilización de plantación en finca Sabana Grande FAUSAC Escuintla], and [Noticias y Eventos| Proyecto de Industrialización del Bambú en Guatemala] (see Table 6 and Figures 11 to 44). 
 
 #### Figure 9: User cluster pie chart
 <img width="413" alt="Screen Shot 2024-04-03 at 11 14 09 AM" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d8108b8f-eab3-46cf-baf3-77dc122190ac">
@@ -77,11 +77,11 @@ For Cluster 0, the top 5 topics are: [Proyecto de Industrialización del Bambú 
 <img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/a981793c-8af0-401a-bcaa-23b2ffaa51e7">
 <img width="300" alt="cluster scatter plot" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/389ccfc5-19a6-4370-b360-20fc5d6cfa1f">
 
-#### Table 5: Cluster summary
-<img width="600" alt="pca" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d19595d9-ba23-4fda-b6e8-9bb9e8ddb227">
+#### Table 5: Topic ranking 
+<img width="800" alt="Screen Shot 2024-04-05 at 3 24 38 PM" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/c983ff75-85b8-415a-acca-a45edb839795">
 
-#### Table 6: Topic ranking 
-<img width="700" alt="Screen Shot 2024-04-05 at 11 24 51 AM" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/75e40c49-e171-435e-9986-a278983f7280">
+#### Table 6: Cluster summary
+<img width="600" alt="pca" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d19595d9-ba23-4fda-b6e8-9bb9e8ddb227">
 
 #### Figure 11 to Figure 44: Cluster data histogram
 <img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/78fa7ca9-ff6f-4727-8ebb-198752c629d0">
@@ -120,6 +120,7 @@ For Cluster 0, the top 5 topics are: [Proyecto de Industrialización del Bambú 
 <img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8ebdf2ac-18c0-4eaa-8d78-64d6db4b8848">
 
 ## Findings 
+
 
 ## Conclusion
 In a nutshell, the Chicago White Sox team is recommended to use the best lineup in the coming season in 2023. Based on the findings of our analysis, using the best lineup can lead to a higher average run scored compared to the actual 2022 season. 
