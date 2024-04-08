@@ -64,6 +64,18 @@ After applying K-means clustering with 2 clusters, 764 users were classified as 
 
 For Cluster 0, the top 5 topics are: [Proyecto de Industrialización del Bambú en Guatemala], [Construcción con Bambú], [Bambú en la Moda], [Invernadero construido a base de bambú industrializado] and [Construcción]. Cluster 1 shares the same top 3 topics, followed by [Guatemala lidera industrialización y aprovechamiento del Bambú en Centro América], [Artesanas y panaderas, mujeres de Chiquimula buscan alternativas económicas] (see Table 5). The users from cluster 1 spend significant longer time on each topic except [Savenhouse built from industrialized bamboo], [Bamboo in Fashion], [Fertilización de plantación en finca Sabana Grande FAUSAC Escuintla], and [Noticias y Eventos| Proyecto de Industrialización del Bambú en Guatemala] (see Table 6 and Figures 11 to 44). 
 
+#### Cluster characteristics:
+Cluster 0
+* represents 95% of the customer base.
+* interested in the application of bamboo.
+* interested in homepage of construction with bamboo, Bambú en la Moda.
+
+Cluster 1
+* represents 5% of the customer base.
+* interested in the project itself.
+* spends significant longer time on our webiste.
+* interested in homepage of construction with bamboo, Bambú en la Moda.
+
 #### Figure 9: User cluster pie chart
 <img width="413" alt="Screen Shot 2024-04-03 at 11 14 09 AM" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d8108b8f-eab3-46cf-baf3-77dc122190ac">
 
@@ -120,29 +132,23 @@ For Cluster 0, the top 5 topics are: [Proyecto de Industrialización del Bambú 
 <img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8ebdf2ac-18c0-4eaa-8d78-64d6db4b8848">
 
 ## Findings 
+* There are two website user groups. Cluster 0 makes up the majority (95%), while Cluster 1 spends significantly more time on the website.
+* Both clusters share a mutual interest in the homepage of construction with bamboo, Bambú en la Moda.
+* The two clusters have a slightly different focus. Cluster 0 mainly browses pages related to bamboo applications at all areas. Cluster 1 is more interested in the project itself, such as services we offer and events we host.
+* The homepage is crucial for sharing information effectively. Both clusters allocate a significant portion of their browsing time to the homepage (Cluster 0 spending 45.88% and Cluster 1 devoting 57.84%).
 
 
-## Conclusion
-In a nutshell, the Chicago White Sox team is recommended to use the best lineup in the coming season in 2023. Based on the findings of our analysis, using the best lineup can lead to a higher average run scored compared to the actual 2022 season. 
-
-Higher expected runs scored are generally associated with higher variability (standard deviation) in the lineup’s performance. For this reason, the team should be mindful of the potential risks and uncertainties associated with pursuing higher runs scored and take those changes into account when making strategic decisions.
-
-Relying solely on the most expensive players within a lineup to achieve the highest runs is not a prudent strategy for the Chicago White Sox team. Although high-priced players are often considered to be better, the team's success is not solely determined by individual talent or payroll. Instead, other factors such as team synergy, coordination, and collective effectiveness can also influence the team's ability to score runs and win games. Therefore, the team should focus on building a cohesive and effective team that can perform well together, rather than relying solely on spending more money on players.
-
-## Takeaways
-* Lineups with high win rate are typically found in the middle class of payroll.
-* Higher payrolls are not generally associated with higher win rate.
-* When pursuing higher run scored, the team should carefully consider how changes in standard deviation can affect their results.
-
-## Discussions
-Hirotsu, N. (2011) indicated that when changing batting order with the same players, an increase in runs scored led to an increase in standard deviation. Our own simulation corroborated this finding, as we observed substituting players also resulted in an increase in standard deviation when there is an increase in runs scored. However, our simulation was conducted using a modified batting order strategy. Therefore, to gain a more comprehensive understanding of the impact of changing the batting order on standard deviation, further investigations can be conducted using different batting orders. By using this model, the Chicago White Sox team can determine whether substituting players or changing the batting order has a greater impact on standard deviation when aiming for higher runs scored.  This would provide valuable insights for the team to make informed decisions regarding their batter substitution strategy and optimize their performance on the field.
-
-## Reference
-* Ursin, D. (2014). A MARKOV MODEL FOR BASEBALL WITH APPLICATIONS.
-* Hirotsu, N. (2011). Reconsideration of the best batting order in baseball: Is the order to maximize the expected number of runs really the best? Journal of Quantitative Analysis in Sports, 7(2). doi:10.2202/1559-0410.1332
-* 2023 Chicago White Sox White Sox Roster & Staff. (n.d.). Retrieved May 6, 2023, from https://www.mlb.com/whitesox/roster
+## Suggestion
+1. Focus on updating the information regarding bamboo construction and fashion.
+2. To seek for potenial particpant, we can target cluster 1. Enhance the service we provide regarding construction to target cluster 1 to cooperate with our project, enhancing make it more informative.
+3. 
+Cluster 0:
+* 
+*
+*
+Cluster 1: 
+* 
+* 
 
 ## Project Team
 * Jhe Yu (Lawrence) Lin
-* Lok I (Minnie) Lou 
-* HOI KEI (Joanne) TANG
