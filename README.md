@@ -140,15 +140,8 @@ Cluster 1
 
 ## Suggestion
 1. Focus on updating the information regarding bamboo construction and fashion.
-2. To seek for potenial particpant, we can target cluster 1. Enhance the service we provide regarding construction to target cluster 1 to cooperate with our project, enhancing make it more informative.
-3. 
-Cluster 0:
-* 
-*
-*
-Cluster 1: 
-* 
-* 
+2. To find potential participants, we can focus on Cluster 1 and enhance the information about our services to better meet their needs, making collaboration easier.
+3. On the homepage, create a section that highlights upcoming events to inform visitors and encourage participation.
 
 ## Project Team
 * Jhe Yu (Lawrence) Lin
