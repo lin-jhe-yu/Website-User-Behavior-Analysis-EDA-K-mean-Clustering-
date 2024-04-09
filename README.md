@@ -40,7 +40,7 @@ Principal component analysis (PCA) is a commonly used dimension reduction techni
 #### Table 3: Standardizing data
 ![standardized user data](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/26ff864f-2d60-4622-b874-a7b4f3477905)
 
-#### Figure 5: Principal components composition
+#### Figure 5: Principal component composition
 <img width="500" alt="30" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/f2d1ce05-3667-4e2e-b5a1-297e3200ddbb">
 
 #### Figure 6: Selecting the number of principal components
@@ -51,7 +51,7 @@ Principal component analysis (PCA) is a commonly used dimension reduction techni
 <img width="900" alt="pca" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8029e0a5-08c4-48a3-9e91-42d566c46981">
 
 ## Model Building and Evaluation
-We tried out K-means clustering models with cluster parameters from 1 to 20 and calculated their within-cluster-sum-of-square (WCSS) values. However, there was no clear elbow point.  Therefore, we subsequently employed the silhouette method. The highest silhouette score was achieved with 2 clusters. We then consider tuning the number of clusters to 2 might produce optimal clustering for our analysis. 
+We tried out K-means clustering models with cluster parameters ranging from 1 to 20 and calculated their within-cluster-sum-of-square (WCSS) values. However, there is no clear elbow point. Therefore, we subsequently adopted the silhouette method. The highest silhouette score is achieved with 2 clusters. We then considered tuning the number of clusters to 2 might produce optimal clustering for our analysis.
 
 #### Figure 7: The elbow method
 ![elbow method](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/cee0f6f1-300a-4370-bea5-02e751ade0f2)
@@ -60,21 +60,23 @@ We tried out K-means clustering models with cluster parameters from 1 to 20 and 
 ![silhouette method](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/b77695f7-c497-42df-a464-0445bb1f2cae)
 
 ## Results and cluster exploration
-After applying K-means clustering with 2 clusters, 764 users were classified as cluster 0 and 40 users as cluster 1 (see Figure 9). Cluster 0 constitutes 95% of the user group, while cluster 0 only accounts for nearly 5%. PCA is the most powerful component to distinguish the cluster (see Figure 10). Users from both cluster 0 and cluster 1 spend more than half of their time on our website browsing the first page, on average. 
+After applying K-means clustering with 2 clusters, 764 users were classified as cluster 0 and 40 users as cluster 1 (see Figure 9). Cluster 0 constitutes 95% of the user group, while cluster 0 only accounts for nearly 5%. Principal component 1 is the most powerful component for distinguishing the cluster (see Figure 10). On average, users from clusters 0 and 1 spend about half of their time on our site viewing the home page.
 
 For Cluster 0, the top 5 topics are: [Proyecto de Industrialización del Bambú en Guatemala], [Construcción con Bambú], [Bambú en la Moda], [Invernadero construido a base de bambú industrializado] and [Construcción]. Cluster 1 shares the same top 3 topics, followed by [Guatemala lidera industrialización y aprovechamiento del Bambú en Centro América], [Artesanas y panaderas, mujeres de Chiquimula buscan alternativas económicas] (see Table 5). The users from cluster 1 spend significant longer time on each topic except [Savenhouse built from industrialized bamboo], [Bamboo in Fashion], [Fertilización de plantación en finca Sabana Grande FAUSAC Escuintla], and [Noticias y Eventos| Proyecto de Industrialización del Bambú en Guatemala] (see Table 6 and Figures 11 to 44). 
 
 #### Cluster characteristics:
 Cluster 0
-* represents 95% of the customer base.
-* interested in the application of bamboo.
-* interested in homepage of construction with bamboo, Bambú en la Moda.
+* constitutes 95% of the customer base.
+* show interest in bamboo applications.
+* spends 45.88% of time on homepage.
+* specifically interested in homepage of construction with bamboo, Bambú en la Moda.
 
 Cluster 1
-* represents 5% of the customer base.
-* interested in the project itself.
+* constitutes 5% of the customer base.
+* show interest in the project itself.
 * spends significant longer time on our webiste.
-* interested in homepage of construction with bamboo, Bambú en la Moda.
+* spends 57.84% of time on homepage.
+* specifically interested in homepage of construction with bamboo, Bambú en la Moda.
 
 #### Figure 9: User cluster pie chart
 <img width="413" alt="Screen Shot 2024-04-03 at 11 14 09 AM" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/d8108b8f-eab3-46cf-baf3-77dc122190ac">
@@ -131,17 +133,10 @@ Cluster 1
 <img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/7c24c183-8d34-4669-9921-005869b92a92">
 <img width="300" alt="20" src="https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/8ebdf2ac-18c0-4eaa-8d78-64d6db4b8848">
 
-## Findings 
-* There are two website user groups. Cluster 0 makes up the majority (95%), while Cluster 1 spends significantly more time on the website.
-* Both clusters share a mutual interest in the homepage of construction with bamboo, Bambú en la Moda.
-* The two clusters have a slightly different focus. Cluster 0 mainly browses pages related to bamboo applications at all areas. Cluster 1 is more interested in the project itself, such as services we offer and events we host.
-* The homepage is crucial for sharing information effectively. Both clusters allocate a significant portion of their browsing time to the homepage (Cluster 0 spending 45.88% and Cluster 1 devoting 57.84%).
-
-
-## Suggestion
+## Recommendation
 1. Focus on updating the information regarding bamboo construction and fashion.
 2. To find potential participants, we can focus on Cluster 1 and enhance the information about our services to better meet their needs, making collaboration easier.
 3. On the homepage, create a section that highlights upcoming events to inform visitors and encourage participation.
 
-## Project Team
+## Project Executor
 * Jhe Yu (Lawrence) Lin
