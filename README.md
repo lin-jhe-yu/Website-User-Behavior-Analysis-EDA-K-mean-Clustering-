@@ -9,11 +9,11 @@ To achieve our goals, we use the Bamboo Industrialization Project website as a p
 We are facing many challenges in terms of brand awareness and increasing the number of participants from the existing bamboo industry. By analyzing website user behavior, we aim to gain insights into our website visitors and their interactions with our platform. With this understanding, we can offer tailored suggestions to enhance our website content and improve user experience.
 
 ## Exploratory Data Analysis
-The dataset covers January 15th, 2024 to March 15th, 2024, totaling 8743 activity records. After thorough organization and sorting, we've condensed this information into 804 user data (see Table 1). 
+The dataset covers January 15th, 2024 to March 15th, 2024, totaling 8743 activity records. After thorough organization, we've sorted this information into 804 user data (see Table 1). 
 
 On average, people spend about 76 seconds engaging with content, with the midpoint at around 29 seconds. When it comes to website interactions, website users typically perform around 11 actions (including page loads, link clicks, etc), and the median is closer to 7 (see Table 2). There are quite a few users who show significantly higher engagement levels (time and events) compared to the average (see Figures 1 and 2).
 
-Approximately 68 percent of users are from Guatemala, with the USA following behind at 14 percent (see Figure 3). Visitors with longer user engagement tend to have more events and engage more on page {Construcción con Bambú} and page {Proyecto de Industrialización del Bambú en Guatemala}. In addition, visitors with more event count tend to engage more on page {Introducción al plan de bambú} and {Plan de bambú} (see Figure 4).
+Approximately 68 percent of users are from Guatemala, with the USA following behind at 14 percent (see Figure 3). Visitors with longer user engagement tend to have more events and engage more on page {Construcción con Bambú} and page {Proyecto de Industrialización del Bambú en Guatemala}. In addition, visitors who are interested in page {Introducción al plan de bambú} also show an interest in page {Plan de bambú} (see Figure 4).
 
 #### Table 1: User data
 ![user data dataframe](https://github.com/lin-jhe-yu/Website-User-Behavior-Analysis-EDA-K-mean-Clustering-/assets/121969452/2f27c56d-0a97-4d83-bad4-812e3b7a56e0)
