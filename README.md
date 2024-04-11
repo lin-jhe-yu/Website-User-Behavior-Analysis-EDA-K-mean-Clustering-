@@ -67,14 +67,15 @@ For Cluster 0, the top 5 topics are: [Proyecto de Industrialización del Bambú 
 #### Cluster characteristics:
 Cluster 0
 * constitutes 95% of the customer base.
-* show interest in bamboo applications.
+* spends around 53 second on the website.
+* shows interest in bamboo applications.
 * spends 45.88% of time on homepage.
 * specifically interested in homepage of construction with bamboo, Bambú en la Moda.
 
 Cluster 1
 * constitutes 5% of the customer base.
 * show interest in the project itself.
-* spends significant longer time on our webiste.
+* spends around 8 minutes on our website, a significantly longer time compared to cluster 0.
 * spends 57.84% of time on homepage.
 * specifically interested in homepage of construction with bamboo, Bambú en la Moda.
 
