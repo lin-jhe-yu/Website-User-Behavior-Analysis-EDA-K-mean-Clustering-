@@ -9,7 +9,7 @@ To achieve our goals, we use the Bamboo Industrialization Project website as a p
 We are facing many challenges in terms of brand awareness and increasing the number of participants from the existing bamboo industry. By analyzing website user behavior, we aim to gain insights into our website visitors and their interactions with our platform. With this understanding, we can offer tailored suggestions to enhance our website content and improve user experience.
 
 ## Exploratory Data Analysis
-We use Big Query to collect user data from the website. The dataset covers January 15th, 2024 to March 15th, 2024, totaling 8743 activity records. After thorough organization, we've sorted this information into 804 user data (see Table 1). 
+We use Google Analytics and Big Query to collect user data from the website. The dataset covers January 15th, 2024 to March 15th, 2024, totaling 8743 activity records. After thorough organization, we've sorted this information into 804 user data (see Table 1). 
 
 On average, people spend about 76 seconds engaging with content, with the midpoint at around 29 seconds. When it comes to website interactions, website users typically perform around 11 actions (including page loads, link clicks, etc), and the median is closer to 7 (see Table 2). There are quite a few users who show significantly higher engagement levels (time and events) compared to the average (see Figures 1 and 2).
 
