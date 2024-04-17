@@ -139,5 +139,7 @@ Cluster 1
 2. To find potential participants, we can focus on Cluster 1 and enhance the information about our services to better meet their needs, making collaboration easier.
 3. On the homepage, create a section that highlights upcoming events to inform visitors and encourage participation.
 
+After discussing with managers, we've implemented numerous improvements based on the principal recommendations outlined above. The majority of the enhancements focus on website content, functionality, and related aspects. We anticipate evaluating the website's performance three months from now, aligning with the timeframe of the model dataset.
+
 ## Project Executor
 * Jhe Yu (Lawrence) Lin
